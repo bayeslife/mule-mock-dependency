@@ -74,3 +74,10 @@ The unit test class has both positive and negative scenarios defined.
        }
    }
    ~~~~
+
+##    Running the unit test
+
+- Clone the Repository
+- Open the pom.xml file in your IDE of choice.
+- Open the unit test case at src/test/java/bayeslife/HttpClientTestCase.java
+- Run the class file as a junit test.
