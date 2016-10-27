@@ -74,7 +74,7 @@ public class HttpClientTestCase extends FunctionalTestCase
                                             new Header("Content-Type", "application/json; charset=utf-8"),
                                             new Header("Cache-Control", "public, max-age=86400")
                                     )
-                                    .withBody("{ message: 'incorrect username and password combination' }")
+                                    .withBody("{ property: 'value' }")
                                     .withDelay(new Delay(TimeUnit.SECONDS, 1))
                     );
            }
